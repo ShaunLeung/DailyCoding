@@ -4,9 +4,9 @@ k = 17
 nums = [10,15,3,7]
 
 def sumChecker(nums, k):
-    for i in range(len(nums)):
-        for j in range(i+1, len(nums)):
-            if nums[i]+nums[j] == k:
+    for i, v in enumerate(nums):
+        for j, v2 in enumerate(nums[i+1:]):
+            if v + v2 == k:
                 return True
     return False
 
