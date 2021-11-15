@@ -3,11 +3,17 @@ import random
 k = 17
 nums = [10,15,3,7]
 
+# by using a set the time complexity of a lookup is reduced to O(1), on avg,
+# which means the total time complextiy of the sum checker can be reduced to 
+# O(n)
+
 def sumChecker(nums, k):
+    setCheck = set()
     for i, v in enumerate(nums):
-        for j, v2 in enumerate(nums[i+1:]):
-            if v + v2 == k:
-                return True
+        if (k-v) in setCheck:
+            return True
+        else:
+            setCheck.add(v)
     return False
 
 # positve check
