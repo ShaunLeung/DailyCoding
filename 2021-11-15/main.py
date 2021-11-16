@@ -21,6 +21,12 @@ print(node.left.val)
 # 1 if left only
 # 2 if right only
 # 3 if both
+# could also use B,L,R,E
+
+# dont want to encode any structure Data to the string as that can get messy and
+# might have to be parsed out later
+# Also encoding a Special char for empty nodes opens up edge cases when the 
+# value of a node is the same as an edge case. 
 
 # recursively traverse through the tree 
 def serialize(node, meta = []):
