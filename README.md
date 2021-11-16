@@ -13,3 +13,9 @@
 
 ### Nov 15, 2021 
 ![Nov 15, 2021 Question](/2021-11-15/Nov15-2021.png)
+
+### Nov 16, 2021 
+![Nov 16, 2021 Question](/2021-11-16/Nov16-2021.png)
+
+Bonus Question
+![Nov 16, 2021 Bonus Question](/2021-11-16/Nov16-2021-Bonus.png)
