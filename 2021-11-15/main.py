@@ -26,7 +26,7 @@ print(node.left.val)
 # dont want to encode any structure Data to the string as that can get messy and
 # might have to be parsed out later
 # Also encoding a Special char for empty nodes opens up edge cases when the 
-# value of a node is the same as an edge case. 
+# value of a node is the same as the special char. 
 
 # recursively traverse through the tree 
 def serialize(node, meta = []):
