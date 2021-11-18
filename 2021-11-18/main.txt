@@ -1,0 +1,33 @@
+Shaun Leung 
+Nov 18, 2021
+
+Unfortunatly since I normally work in python and my computer is not set up for 
+languages that use pointer I will try and pseudocode this out. 
+
+the xor value is an xor of next and prev
+
+Things you need to know, a NULL pointer is all 0s
+
+you know the locations of head and tail at any given time
+
+
+in python XOR is ^
+id function in python get the mem address
+
+Actually now that I have researched a few python mem features, i'll give it a 
+stabS
+
+cant use None as null memory locations need to use 0
+
+
+had to look up actualy functions for get_pointer and dereference_pointer but 
+they are __type_cast and id respectively.
+
+
+Alright take away for this one is that they want you to know the terms exlusive
+or and linked list and what both entail.
+
+I struggled a little bit with the syntax but thats to be expected wince this was
+my first time diving into pointer programing in Python which isn't really a 
+thing. I think that if I was able to use the pseudo code I could have solved it 
+a bit quicker. 
