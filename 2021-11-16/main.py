@@ -86,3 +86,73 @@ print()
 
 
 # Clue use the indexes of the array to store info. 
+# shift everything <=0 and returns the index of the first + #
+def shiftOmit(array):
+    cur = 0
+    for i, num in enumerate(array):
+        if num <= 0:
+            array[cur], array[i] = array[i], array[cur]
+            cur +=1
+    return cur
+
+def findPositive(array):
+    # Flip negative
+    for num in array:
+        if abs(num) <= len(array):
+            if array[abs(num)-1] > 0:
+                array[abs(num)-1] *= -1
+
+    # find first positive index
+    first = 1; 
+    for num in array:
+        if num <= 0:
+            first += 1
+        else:
+            return first
+    return first
+
+def missingPos(array):
+    return findPositive(array[shiftOmit(array):])
+
+
+print("New Algo")
+# Challenge examples
+array = [3,4,-1,1]
+print(array)
+print(missingPos(array))
+print()
+
+array = [1,2,0]
+print(array)
+print(missingPos(array))
+print()
+
+# My example
+array = [1,4,3,2]
+print(array)
+print(missingPos(array))
+print()
+
+
+# Falls this case as the function forgets about 4 and never records 3
+array = [4,7,2,3,1]
+print(array)
+print(missingPos(array))
+print()
+
+# empty
+array = []
+print(array)
+print(missingPos(array))
+print()
+
+# random
+import random
+array = []
+for i in range(0,5):
+    n = random.randint(-5,5)
+    array.append(n)
+
+print(array)
+print(missingPos(array))
+print()
