@@ -33,4 +33,4 @@
 ![Nov 20, 2021 Question](/2021-11-20/Nov20-2021.png)
 
 ### Nov 21, 2021 
-![Nov 21, 2021 Question](/2021-11-21/Nov20-2021.png)
+![Nov 21, 2021 Question](/2021-11-21/Nov21-2021.png)
