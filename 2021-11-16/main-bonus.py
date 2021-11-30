@@ -22,19 +22,22 @@
 # flag indexes negative that they exist in the array
 # add n to to index to indicate that a double has been found
 
+import random
+
+
 def findDup(array):
     n = len(array)
     for num in array:
         # normalize for -OB and -
         if num < -n:
             temp = abs(num + n)
-        else: 
+        else:
             temp = abs(num)
 
         # dont care about found dups
         if array[temp] < -n:
             continue
-        
+
         # we know num is between -n and n
         # Check if we have seen it before
         # if so flag it as a dup by putting it OB
@@ -56,22 +59,22 @@ def findDup(array):
 # Testing
 # Challenge tests
 
-array = [1,2,3,6,3,6,1]
+
+array = [1, 2, 3, 6, 3, 6, 1]
 print(array)
 print(findDup(array))
 print()
 
-array = [1,2,3,4,2]
+array = [1, 2, 3, 4, 2]
 print(array)
 print(findDup(array))
 print()
 
-#random test
-import random
+# random test
 n = 7
 array = []
-for i in range(0,n):
-    num = random.randint(0,n-1)
+for i in range(0, n):
+    num = random.randint(0, n-1)
     array.append(num)
 
 print(array)
