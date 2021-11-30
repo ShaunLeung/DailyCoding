@@ -13,8 +13,11 @@
 # duplicates should not make a difference if we are keeping running totals
 # dont consider number that are greater than the array size
 
+import random
+
+
 def missingNo(array):
-    #set up our totals
+    # set up our totals
     i = 1
     l = float('inf')
     h = float('-inf')
@@ -25,44 +28,44 @@ def missingNo(array):
 
         # dealing with updating possible answer
         if num == i:
-            i+=1
+            i += 1
             if i == l:
-                i+=1
+                i += 1
                 if i == h:
-                    i+=1
-        
+                    i += 1
+
         # dealing with lowest possible that has been seen
         if num < l and num >= i:
             l = num
-        
+
         # dealling with highest seen  and possible
         if num > h and num >= i:
             h = num
-        
+
     return i
 
 
-# Testing 
+# Testing
 # Challenge examples
-array = [3,4,-1,1]
+array = [3, 4, -1, 1]
 print(array)
 print(missingNo(array))
 print()
 
-array = [1,2,0]
+array = [1, 2, 0]
 print(array)
 print(missingNo(array))
 print()
 
 # My example
-array = [1,4,3,2]
+array = [1, 4, 3, 2]
 print(array)
 print(missingNo(array))
 print()
 
 
 # Falls this case as the function forgets about 4 and never records 3
-array = [4,7,2,3,1]
+array = [4, 7, 2, 3, 1]
 print(array)
 print(missingNo(array))
 print()
@@ -74,10 +77,9 @@ print(missingNo(array))
 print()
 
 # random
-import random
 array = []
-for i in range(0,5):
-    n = random.randint(-5,5)
+for i in range(0, 5):
+    n = random.randint(-5, 5)
     array.append(n)
 
 print(array)
@@ -85,15 +87,16 @@ print(missingNo(array))
 print()
 
 
-# Clue use the indexes of the array to store info. 
+# Clue use the indexes of the array to store info.
 # shift everything <=0 and returns the index of the first + #
 def shiftOmit(array):
     cur = 0
     for i, num in enumerate(array):
         if num <= 0:
             array[cur], array[i] = array[i], array[cur]
-            cur +=1
+            cur += 1
     return cur
+
 
 def findPositive(array):
     # Flip negative
@@ -103,7 +106,7 @@ def findPositive(array):
                 array[abs(num)-1] *= -1
 
     # find first positive index
-    first = 1; 
+    first = 1
     for num in array:
         if num <= 0:
             first += 1
@@ -111,31 +114,32 @@ def findPositive(array):
             return first
     return first
 
+
 def missingPos(array):
     return findPositive(array[shiftOmit(array):])
 
 
 print("New Algo")
 # Challenge examples
-array = [3,4,-1,1]
+array = [3, 4, -1, 1]
 print(array)
 print(missingPos(array))
 print()
 
-array = [1,2,0]
+array = [1, 2, 0]
 print(array)
 print(missingPos(array))
 print()
 
 # My example
-array = [1,4,3,2]
+array = [1, 4, 3, 2]
 print(array)
 print(missingPos(array))
 print()
 
 
 # Falls this case as the function forgets about 4 and never records 3
-array = [4,7,2,3,1]
+array = [4, 7, 2, 3, 1]
 print(array)
 print(missingPos(array))
 print()
@@ -147,10 +151,9 @@ print(missingPos(array))
 print()
 
 # random
-import random
 array = []
-for i in range(0,5):
-    n = random.randint(-5,5)
+for i in range(0, 5):
+    n = random.randint(-5, 5)
     array.append(n)
 
 print(array)

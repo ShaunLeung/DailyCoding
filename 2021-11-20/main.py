@@ -17,7 +17,6 @@ def univalCount(node):
     if node.left == node.right:
         return 1
 
-
     count = 0
     # check your self
     if node.left and node.right:
@@ -34,5 +33,7 @@ def univalCount(node):
 
 # set up the tree from the example
 
-root = biTree(0,biTree(1),biTree(0,biTree(1,biTree(1),biTree(1)),biTree(0)))
+
+root = biTree(0, biTree(1), biTree(
+    0, biTree(1, biTree(1), biTree(1)), biTree(0)))
 print(univalCount(root))

@@ -8,6 +8,7 @@ class Node:
         self.left = left
         self.right = right
 
+
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 
 # getting a feel for the structure and syntax
@@ -15,8 +16,8 @@ print(node.val)
 print(node.left.val)
 
 # Challenges have to find a way to preserve structure if a branch is empty
-# Could use meta data to record tree structure 
-# Ex. 0-3. 
+# Could use meta data to record tree structure
+# Ex. 0-3.
 # 0 if end Node
 # 1 if left only
 # 2 if right only
@@ -25,29 +26,31 @@ print(node.left.val)
 
 # dont want to encode any structure Data to the string as that can get messy and
 # might have to be parsed out later
-# Also encoding a Special char for empty nodes opens up edge cases when the 
-# value of a node is the same as the special char. 
+# Also encoding a Special char for empty nodes opens up edge cases when the
+# value of a node is the same as the special char.
 
-# recursively traverse through the tree 
-def serialize(node, meta = []):
+# recursively traverse through the tree
+
+
+def serialize(node, meta=[]):
     if node.left == None and node.right == None:
-        return [node.val] , [0]
+        return [node.val], [0]
 
     if node.left != None and node.right == None:
         lVal, lMeta = serialize(node.left, meta)
-        return [node.val] + lVal , [1] + lMeta
+        return [node.val] + lVal, [1] + lMeta
 
     if node.left == None and node.right != None:
         rVal, rMeta = serialize(node.right, meta)
-        return  [node.val] + rVal , [2] + rMeta
+        return [node.val] + rVal, [2] + rMeta
 
     if node.left != None and node.right != None:
         rVal, rMeta = serialize(node.right, meta)
         lVal, lMeta = serialize(node.left, meta)
-        return [node.val] + lVal + rVal ,  [3] + lMeta + rMeta 
+        return [node.val] + lVal + rVal,  [3] + lMeta + rMeta
 
 
-node_string , node_meta = serialize(node)
+node_string, node_meta = serialize(node)
 
 print(node_string)
 print(node_meta)
@@ -63,14 +66,15 @@ def deserialize(serialized, node=None):
     if meta == 0:
         returnNode = Node(val)
     if meta == 1:
-        returnNode = Node(val, deserialize((data,metaData)))
+        returnNode = Node(val, deserialize((data, metaData)))
     if meta == 2:
-        returnNode = Node(val, None, deserialize((data,metaData)))
-    if meta == 3:            
-        returnNode = Node(val, deserialize((data,metaData)))
-        returnNode.right = deserialize((data,metaData))
+        returnNode = Node(val, None, deserialize((data, metaData)))
+    if meta == 3:
+        returnNode = Node(val, deserialize((data, metaData)))
+        returnNode.right = deserialize((data, metaData))
 
     return returnNode
+
 
 new_node_string, new_node_meta = serialize(deserialize(serialize(node)))
 print(new_node_string)

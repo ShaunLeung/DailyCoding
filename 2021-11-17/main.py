@@ -8,19 +8,21 @@ def cons(a, b):
     return pair
 
 # a and b have been localized to the cons function to the pair function has
-# access to them 
+# access to them
 
 # input is a function
+
+
 def car(pair):
-    def f(a,b):
-        return (a,b)
+    def f(a, b):
+        return (a, b)
     return pair(f)[0]
 
-def cdr(pair):
-    def f(a,b):
-        return (a,b)
-    return pair(f)[1]
 
+def cdr(pair):
+    def f(a, b):
+        return (a, b)
+    return pair(f)[1]
 
 
 # Challenge tests

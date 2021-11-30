@@ -5,28 +5,26 @@
 # need to consider 10 and 20 since 0 is not a valid mapping and cant be broken
 # down.
 
-# since it is all valid combination will have to be multiplication somewhere 
+# since it is all valid combination will have to be multiplication somewhere
 # can walk through the list look at 2 characters at a time that will tell us how
-# many new combos to add to our running total. 
+# many new combos to add to our running total.
 # ex. 11 can be aa or k 2 new additions
 
 # do a jump if 10 or 20
 # will need to watchou out for n being odd and OB checks
 
 # No contraints on this question in terms of time or space
-# this feels very dynamic programmy there will come a point where we can be 
-# confident the numbers we have passed will contirubut to the amount of 
+# this feels very dynamic programmy there will come a point where we can be
+# confident the numbers we have passed will contirubut to the amount of
 # combinations and nothing in future numbers will change that
 
 
 # !!!! is complextiy being added?
 # It cannot diminish but can stay the same
 # record as a list will need to begining case
-# 
+#
 # Big break through was how much complexity increases the final result
 # array[i] = array[i-1] + array[i-2]
-
-
 
 
 def cyphers(array):
@@ -34,7 +32,7 @@ def cyphers(array):
         return 0
     # we know its not empty so pre-load
     complexity = []
-    for i ,num in enumerate(array):
+    for i, num in enumerate(array):
         if len(complexity) == 0:
             complexity.append(1)
             continue
@@ -51,10 +49,11 @@ def cyphers(array):
             # array[i] = array[i-1] + array[i-2]
             complexity.append(complexity[-1]+complexity[-2])
         else:
-            complexity.append(complexity[-1]) 
-    
+            complexity.append(complexity[-1])
+
     return complexity[-1]
-                                                                                                      
-array = [1,1,1,1,1,1]
+
+
+array = [1, 1, 1, 1, 1, 1]
 print(array)
 print(cyphers(array))

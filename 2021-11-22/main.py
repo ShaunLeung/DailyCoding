@@ -8,22 +8,26 @@
 # timer
 
 
-
 import threading
 
+
 def scheduler(f, n):
-    t = threading.Timer(int(n/1000),f)
+    t = threading.Timer(int(n/1000), f)
     t.start()
-    
+
     return
+
 
 def someFunction():
     print("second")
+
+
 def someOtherFunction():
     print("first")
 
-scheduler(someFunction,10000)
-scheduler(someOtherFunction,9000)
 
-# could have used JS here since it is inhernetly non-blocking but I wanted some 
-# practice with threads and Python. 
+scheduler(someFunction, 10000)
+scheduler(someOtherFunction, 9000)
+
+# could have used JS here since it is inhernetly non-blocking but I wanted some
+# practice with threads and Python.
