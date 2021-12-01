@@ -7,7 +7,6 @@
 ### November 2021
 
 #### Nov 13, 2021
-
 ![Nov 13, 2021 Question](/2021-11-13/Nov13-2021.png)
 
 #### Nov 14, 2021 
@@ -59,3 +58,6 @@
 ![Nov 30, 2021 Question](/2021-11-30/Nov30-2021.png)
 
 ### December 2021
+
+#### Dec 1, 2021
+![Dec 1, 2021 Question](/2021-12-1/Dec1-2021.png)
