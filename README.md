@@ -89,5 +89,7 @@
 ![Dec 3, 2021 Question](/2021-12-3/Dec3-2021.png)
 
 #### Dec 4, 2021
-
 ![Dec 4, 2021 Question](/2021-12-4/Dec4-2021.png)
+
+#### Dec 5, 2021
+![Dec 5, 2021 Question](/2021-12-5/Dec5-2021.png)
