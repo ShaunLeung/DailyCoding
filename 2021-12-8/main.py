@@ -37,7 +37,7 @@ def removeK(node, k):
         saved = saved.next
 
     # do the delete
-    # Saved will at furthest be n-1 at k=0
+    # Saved will at furthest be n-1 at k=1
     saved.next = saved.next.next
 
 
@@ -52,7 +52,7 @@ while cur:
     print(cur.value, end=" ")
     cur = cur.next
 
-removeK(head, 1)
+removeK(head, 99)
 print("*************************")
 
 cur = head
