@@ -100,6 +100,10 @@
 
 ![Dec 6, 2021 Question](/2021-12-6/Dec6-2021.png)
 
+#### Dec 7, 2021
+
+![Dec 7, 2021 Question](/2021-12-7/Dec7-2021.png)
+
 #### Dec 8, 2021
 
 ![Dec 8, 2021 Question](/2021-12-8/Dec8-2021.png)
