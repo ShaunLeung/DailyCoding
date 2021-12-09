@@ -16,11 +16,11 @@
 
 
 const regexChecker = (string, pattern) => {
-    ast = null
-    dot = false
-    j = 0; //index counter for the pattern
+    var ast = null
+    var dot = false
+    var j = 0; //index counter for the pattern
     //Walk through the string
-    for (i = 0; i < string.length; i++) {
+    for (var i = 0; i < string.length; i++) {
         if (j >= pattern.length && ast == null)
             return false
 
@@ -68,8 +68,8 @@ const regexChecker = (string, pattern) => {
 }
 // testing
 
-string = 'ray'
-pattern = 'ra.'
+var string = 'ray'
+var pattern = 'ra.'
 console.log(string)
 console.log(pattern)
 console.log(regexChecker(string, pattern))
