@@ -78,39 +78,39 @@
 
 #### Dec 1, 2021
 
-![Dec 1, 2021 Question](/2021-12-1/Dec1-2021.png)
+![Dec 1, 2021 Question](/2021-12-01/Dec1-2021.png)
 
 #### Dec 2, 2021
 
-![Dec 2, 2021 Question](/2021-12-2/Dec2-2021.png)
+![Dec 2, 2021 Question](/2021-12-02/Dec2-2021.png)
 
 #### Dec 3, 2021
 
-![Dec 3, 2021 Question](/2021-12-3/Dec3-2021.png)
+![Dec 3, 2021 Question](/2021-12-03/Dec3-2021.png)
 
 #### Dec 4, 2021
 
-![Dec 4, 2021 Question](/2021-12-4/Dec4-2021.png)
+![Dec 4, 2021 Question](/2021-12-04/Dec4-2021.png)
 
 #### Dec 5, 2021
 
-![Dec 5, 2021 Question](/2021-12-5/Dec5-2021.png)
+![Dec 5, 2021 Question](/2021-12-05/Dec5-2021.png)
 
 #### Dec 6, 2021
 
-![Dec 6, 2021 Question](/2021-12-6/Dec6-2021.png)
+![Dec 6, 2021 Question](/2021-12-06/Dec6-2021.png)
 
 #### Dec 7, 2021
 
-![Dec 7, 2021 Question](/2021-12-7/Dec7-2021.png)
+![Dec 7, 2021 Question](/2021-12-07/Dec7-2021.png)
 
 #### Dec 8, 2021
 
-![Dec 8, 2021 Question](/2021-12-8/Dec8-2021.png)
+![Dec 8, 2021 Question](/2021-12-08/Dec8-2021.png)
 
 #### Dec 9, 2021
 
-![Dec 9, 2021 Question](/2021-12-9/Dec9-2021.png)
+![Dec 9, 2021 Question](/2021-12-09/Dec9-2021.png)
 
 #### Dec 10, 2021
 
