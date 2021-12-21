@@ -17,12 +17,10 @@ def makePal(string):
     end = len(string)-1
     beg = 0
     while beg < end:
-        print(string)
         # same
         if string[beg] == string[end]:
             beg += 1
             end -= 1
-            continue
         # front
         elif string[beg] < string[end]:
             string = string[:end+1] + string[beg] + string[end+1:]
@@ -35,8 +33,6 @@ def makePal(string):
     return string
 
 
-string = "azb"
-
+string = "race"
 print(string)
-print("******")
 print(makePal(string))
