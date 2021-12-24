@@ -1,0 +1,25 @@
+Shaun Leung swl567 11241403
+
+Required files:
+    State.py
+    Problem.py
+    Game_Va.py
+    Game_Vb.py
+    Min_Max.py
+    Alpha_Beta.py
+    Alpha_Beta_Limited.py
+    Depth_Limited.py
+    PvP.py
+
+Scripts:
+    A4Q1
+    A4Q2
+    A4Q3
+    A4Q4
+    A4Q5
+    A4Q6
+    A4Q7
+    A4Q9
+
+Python scripts should be run with python3.6
+
