@@ -55,3 +55,10 @@ var array = [2, 4, 1, 3, 5]
 console.log(getInversions(array))
 array = [5, 4, 3, 2, 1]
 console.log(getInversions(array))
+
+/**
+ * This was a fun little one to program in JS since I am so used to slicing in
+ * python it is good that I got some hands on practice doing it in JS. I also
+ * got some good experience with returing and unziping variables. It is a little
+ * different from python but still understandable.
+ */
