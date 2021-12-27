@@ -36,8 +36,12 @@ const mergeSort = array => {
       misplaced += left.length - i //we know how many left items the right item is skipping and in constant time!!!!!
     }
   }
-  for (; i < left.length; i++) out.push(left[i])
-  for (; j < right.length; j++) out.push(right[j])
+  //updating these appends
+  //for (; i < left.length; i++) out.push(left[i])
+  //for (; j < right.length; j++) out.push(right[j])
+
+  out = out.concat(left.slice(i, left.length))
+  out = out.concat(right.slice(j, right.length))
 
   return [out, misplaced]
 }
