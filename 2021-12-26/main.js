@@ -13,15 +13,18 @@
 const mergeSort = array => {
   n = array.length
   //base case
-  if (n === 1) return array
+  if (n === 1) return [array, 0]
   //first thing is to split the list in two
   var left = array.slice(0, n / 2)
   var right = array.slice(n / 2, n)
   var out = []
   var i = 0
   var j = 0
-  left = mergeSort(left)
-  right = mergeSort(right)
+
+  var [left, lm] = mergeSort(left)
+  var [right, rm] = mergeSort(right)
+
+  var misplaced = lm + rm
 
   while (i < left.length && j < right.length) {
     if (left[i] <= right[j]) {
@@ -30,15 +33,21 @@ const mergeSort = array => {
     } else {
       out.push(right[j])
       j++
+      misplaced += left.length - i //we know how many left items the right item is skipping and in constant time!!!!!
     }
   }
   for (; i < left.length; i++) out.push(left[i])
   for (; j < right.length; j++) out.push(right[j])
 
-  return out
+  return [out, misplaced]
 }
 
-var array = [3, 2, 4, 5, 1]
-console.log(mergeSort(array))
-array = [3, 2, 4, 5, 1, 6]
-console.log(mergeSort(array))
+const getInversions = array => {
+  var [list, inversions] = mergeSort(array)
+  return inversions
+}
+// Testing
+var array = [2, 4, 1, 3, 5]
+console.log(getInversions(array))
+array = [5, 4, 3, 2, 1]
+console.log(getInversions(array))
