@@ -200,4 +200,8 @@
 
 #### Jan 1, 2022
 
-![Jan 1, 2022 Question](/2022-01-1/Jan1-2022.png)
+![Jan 1, 2022 Question](/2022-01-01/Jan1-2022.png)
+
+#### Jan 2, 2022
+
+![Jan 2, 2022 Question](/2022-01-02/Jan2-2022.png)
