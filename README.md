@@ -8,7 +8,7 @@ the earlier entries can be a bit rough and the comments are plentiful so I can e
 Main goal is to get something running so if I get stumped I will look up a solution or some hints to get the juices flowing and indicate as such in the 
 comments.
 
-Questions are recorded as images and are saved in the day's directory so that if the dir ever becomes de-coupled from the repository the question is still there
+Questions are recorded as images and are saved in the day's directory so that if the dir ever becomes de-coupled from the repository the question is still there.
 
 ## Daily Challenges
 
