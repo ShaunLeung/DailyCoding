@@ -1,0 +1,12 @@
+Shaun Leung
+Jan 12, 2022
+
+This one is a little more theory than programming. I am sure that I could whip
+something up but the time investment is a lot greater than I want to commit to
+for these programming challenges. 
+
+I think the simple way is to look at RAID as a solution but instead for looking 
+for errors or faults it will detect changes. Now this can be broken down evern 
+more, with normal data storage they are broken down into blocks so you can 
+compare hashes of the files blocks and then use the hash to repair/update the 
+file that is old. 
