@@ -317,3 +317,7 @@ Questions are recorded as images and are saved in the day's directory so that if
 #### Jan 28, 2022
 
 ![Jan 28, 2022 Question](/2022-01-28/Jan28-2022.png)
+
+#### Jan 29, 2022
+
+![Jan 29, 2022 Question](/2022-01-29/Jan29-2022.png)
