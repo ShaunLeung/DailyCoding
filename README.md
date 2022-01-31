@@ -208,124 +208,124 @@ Questions are recorded as images and are saved in the day's directory so that if
 
 #### Jan 1, 2022
 
-![Jan 1, 2022 Question](/2022-01-01/Jan1-2022.png)
+![Jan 1, 2022 Question](/2022-01/2022-01-01/Jan1-2022.png)
 
 #### Jan 2, 2022
 
-![Jan 2, 2022 Question](/2022-01-02/Jan2-2022.png)
+![Jan 2, 2022 Question](/2022-01/2022-01-02/Jan2-2022.png)
 
 #### Jan 3, 2022
 
-![Jan 3, 2022 Question](/2022-01-03/Jan3-2022.png)
+![Jan 3, 2022 Question](/2022-01/2022-01-03/Jan3-2022.png)
 
 #### Jan 4, 2022
 
-![Jan 4, 2022 Question](/2022-01-04/Jan4-2022.png)
+![Jan 4, 2022 Question](/2022-01/2022-01-04/Jan4-2022.png)
 
 #### Jan 5, 2022
 
-![Jan 5, 2022 Question](/2022-01-05/Jan5-2022.png)
+![Jan 5, 2022 Question](/2022-01/2022-01-05/Jan5-2022.png)
 
 #### Jan 6, 2022
 
-![Jan 6, 2022 Question](/2022-01-06/Jan6-2022.png)
+![Jan 6, 2022 Question](/2022-01/2022-01-06/Jan6-2022.png)
 
 #### Jan 7, 2022
 
-![Jan 7, 2022 Question](/2022-01-07/Jan7-2022.png)
+![Jan 7, 2022 Question](/2022-01/2022-01-07/Jan7-2022.png)
 
 #### Jan 8, 2022
 
-![Jan 8, 2022 Question](/2022-01-08/Jan8-2022.png)
+![Jan 8, 2022 Question](/2022-01/2022-01-08/Jan8-2022.png)
 
 #### Jan 9, 2022
 
-![Jan 9, 2022 Question](/2022-01-09/Jan9-2022.png)
+![Jan 9, 2022 Question](/2022-01/2022-01-09/Jan9-2022.png)
 
 #### Jan 10, 2022
 
-![Jan 10, 2022 Question](/2022-01-10/Jan10-2022.png)
+![Jan 10, 2022 Question](/2022-01/2022-01-10/Jan10-2022.png)
 
 #### Jan 11, 2022
 
-![Jan 11, 2022 Question](/2022-01-11/Jan11-2022.png)
+![Jan 11, 2022 Question](/2022-01/2022-01-11/Jan11-2022.png)
 
 #### Jan 12, 2022
 
-![Jan 12, 2022 Question](/2022-01-12/Jan12-2022.png)
+![Jan 12, 2022 Question](/2022-01/2022-01-12/Jan12-2022.png)
 
 #### Jan 13, 2022
 
-![Jan 13, 2022 Question](/2022-01-13/Jan13-2022.png)
+![Jan 13, 2022 Question](/2022-01/2022-01-13/Jan13-2022.png)
 
 #### Jan 14, 2022
 
-![Jan 14, 2022 Question](/2022-01-14/Jan14-2022.png)
+![Jan 14, 2022 Question](/2022-01/2022-01-14/Jan14-2022.png)
 
 #### Jan 15, 2022
 
-![Jan 15, 2022 Question](/2022-01-15/Jan15-2022.png)
+![Jan 15, 2022 Question](/2022-01/2022-01-15/Jan15-2022.png)
 
 #### Jan 16, 2022
 
-![Jan 16, 2022 Question](/2022-01-16/Jan16-2022.png)
+![Jan 16, 2022 Question](/2022-01/2022-01-16/Jan16-2022.png)
 
 #### Jan 17, 2022
 
-![Jan 17, 2022 Question](/2022-01-17/Jan17-2022.png)
+![Jan 17, 2022 Question](/2022-01/2022-01-17/Jan17-2022.png)
 
 #### Jan 18, 2022
 
-![Jan 18, 2022 Question](/2022-01-18/Jan18-2022.png)
+![Jan 18, 2022 Question](/2022-01/2022-01-18/Jan18-2022.png)
 
 #### Jan 19, 2022
 
-![Jan 19, 2022 Question](/2022-01-19/Jan19-2022.png)
+![Jan 19, 2022 Question](/2022-01/2022-01-19/Jan19-2022.png)
 
 #### Jan 20, 2022
 
-![Jan 20, 2022 Question](/2022-01-20/Jan20-2022.png)
+![Jan 20, 2022 Question](/2022-01/2022-01-20/Jan20-2022.png)
 
 #### Jan 21, 2022
 
-![Jan 21, 2022 Question](/2022-01-21/Jan21-2022.png)
+![Jan 21, 2022 Question](/2022-01/2022-01-21/Jan21-2022.png)
 
 #### Jan 22, 2022
 
-![Jan 22, 2022 Question](/2022-01-22/Jan22-2022.png)
+![Jan 22, 2022 Question](/2022-01/2022-01-22/Jan22-2022.png)
 
 #### Jan 23, 2022
 
-![Jan 23, 2022 Question](/2022-01-23/Jan23-2022.png)
+![Jan 23, 2022 Question](/2022-01/2022-01-23/Jan23-2022.png)
 
 #### Jan 24, 2022
 
-![Jan 24, 2022 Question](/2022-01-24/Jan24-2022.png)
+![Jan 24, 2022 Question](/2022-01/2022-01-24/Jan24-2022.png)
 
 #### Jan 25, 2022
 
-![Jan 25, 2022 Question](/2022-01-25/Jan25-2022.png)
+![Jan 25, 2022 Question](/2022-01/2022-01-25/Jan25-2022.png)
 
 #### Jan 26, 2022
 
-![Jan 26, 2022 Question](/2022-01-26/Jan26-2022.png)
+![Jan 26, 2022 Question](/2022-01/2022-01-26/Jan26-2022.png)
 
 #### Jan 27, 2022
 
-![Jan 27, 2022 Question](/2022-01-27/Jan27-2022.png)
+![Jan 27, 2022 Question](/2022-01/2022-01-27/Jan27-2022.png)
 
 #### Jan 28, 2022
 
-![Jan 28, 2022 Question](/2022-01-28/Jan28-2022.png)
+![Jan 28, 2022 Question](/2022-01/2022-01-28/Jan28-2022.png)
 
 #### Jan 29, 2022
 
-![Jan 29, 2022 Question](/2022-01-29/Jan29-2022.png)
+![Jan 29, 2022 Question](/2022-01/2022-01-29/Jan29-2022.png)
 
 #### Jan 30, 2022
 
-![Jan 30, 2022 Question](/2022-01-30/Jan30-2022.png)
+![Jan 30, 2022 Question](/2022-01/2022-01-30/Jan30-2022.png)
 
 #### Jan 31, 2022
 
-![Jan 31, 2022 Question](/2022-01-31/Jan30-2022.png)
+![Jan 31, 2022 Question](/2022-01/2022-01-31/Jan30-2022.png)
