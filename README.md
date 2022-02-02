@@ -1,6 +1,14 @@
 # DailyCoding
 
 ## Overview
+I wanted to get some more practice with coding so I thought I would sign up for one of those problem per day mailing lists and record my progress. 
+Keep in mind that most of the code I write here is for my benefit and that the whole reason I am doing this is so that I can get better, so some of
+the earlier entries can be a bit rough and the comments are plentiful so I can explain my thought process. 
+
+Main goal is to get something running so if I get stumped I will look up a solution or some hints to get the juices flowing and indicate as such in the 
+comments.
+
+Questions are recorded as images and are saved in the day's directory so that if the dir ever becomes de-coupled from the repository the question is still there.
 
 ## Daily Challenges
 
@@ -331,3 +339,4 @@
 #### Feb 2, 2022
 
 ![Feb 2, 2022 Quesion](/2022-02-02/Feb2-2022.png)
+
