@@ -25,17 +25,20 @@ class Node:
         self.nodes = nodes
 
 
-    def print(self):
+    def print(self, flag = True):
         n = len(self.nodes)
 
         for node in self.nodes[:n//2]:
-            node.print()
+            node.print(False)
         
         print(self.value,end=' ')
 
         for node in self.nodes[n//2:]:
-            node.print()
+            node.print(False)
         
+        if flag:
+            print()
+
 
 def balanceCheck(root):
     """
@@ -142,4 +145,7 @@ def largestBST(root):
     return largest
 
 node = largestBST(root3)
-node.print()
+
+root6 = Node(99,[Node(2,[Node(1),Node(3)]),Node(98)])
+root6.print()
+largestBST(root6).print()
